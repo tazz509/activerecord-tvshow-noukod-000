@@ -4,6 +4,7 @@ class ConnectionAdapter
   def initialize(database, adapter="sqlite3")
     @adapter = adapter
     @database = database
+    a
   end
 
   def connect!
